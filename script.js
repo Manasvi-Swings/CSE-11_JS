@@ -1,5 +1,6 @@
 console.log("Hello world!");
 document.write("hello world");
+document.write("<br/>");
 var num=10;
 console.log(num);
 console.log(typeof(num));
@@ -35,5 +36,12 @@ var animals= new Array("cat","dog","mouse");
     console.log("true");
  }
  else {
-    console.log("false");
+    console.log("false"); //because each symbol is unique
  }
+var count;
+document.write("starting loop "+"<br/>");
+for (count=0;count<10;count++) {
+    document.write("current count:"+count);
+    document.write("<br/>");
+
+} document.write("loop stopped");
