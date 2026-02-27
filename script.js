@@ -45,3 +45,4 @@ for (count=0;count<10;count++) {
     document.write("<br/>");
 
 } document.write("loop stopped");
+document.write("<br/>");
