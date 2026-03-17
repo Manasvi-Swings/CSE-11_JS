@@ -31,7 +31,7 @@ if (age>18) { //if statement
             break;
   default:
     document.write("Unknown Grade</br>")
-    }
+    }   
     document.write("Exiting switch block.");
 
     function myFunction() { //function
